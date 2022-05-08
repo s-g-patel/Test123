@@ -39,7 +39,7 @@ const AddProduct = () =>{
             <input className="inputBox" type="text" value={category} onChange={(e) => setCategory(e.target.value)} placeholder="Enter Product Category"></input>
             {error && !category && <span className="invalid-input">Enter valid category</span>}
             <input className="inputBox" type="text" value={company} onChange={(e) => setCompany(e.target.value)} placeholder="Enter Product Company"></input>
-            {error && !company && <span className="invalid-input">Enter valid company</span>}
+            {error && !company && <span className="invalid-input">Enter valid sagr company</span>}
             <button className="appbutton" onClick={addProductItem} type="button">Add new product</button>
         </div>  
     );
